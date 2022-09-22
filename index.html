@@ -1,0 +1,189 @@
+<!doctype html>
+<html class="scroll-smooth"  lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RamRain Portfolio</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-main">
+<header class="w-full fixed py-8 z-50 flex justify-start shadow-lg shadow-primary px-12">
+    <nav>
+        <ul class="justify-between hidden md:flex text-xl font-roboto pb-2 text-white items-center space-x-10">
+            <li class="hover:border-b-2 hover:border-primary hover:text-primary border-b-2 transparent"><a href="#about">Обо мне</a></li>
+            <li class="hover:border-b-2 hover:border-primary hover:text-primary border-b-2 transparent"><a href="#expirience">Опыт работы</a></li>
+            <li class="hover:border-b-2 hover:border-primary hover:text-primary border-b-2 transparent"><a href="#commercial-project">Коммерческие проекты</a></li>
+            <li class="hover:border-b-2 hover:border-primary hover:text-primary border-b-2 transparent"><a href="#portfolio">Портфолио</a></li>
+        </ul>
+        <div class="dropdown z-0 md:hidden">
+            <button class="dropbtn uppercase z-10 space-y-2 rounded shadow">
+                <span class="block w-8 h-0.5 bg-white animate-pulse"></span>
+                <span class="block w-8 h-0.5 bg-white animate-pulse"></span>
+                <span class="block w-8 h-0.5 bg-white animate-pulse"></span>
+            </button>
+            <div class="dropdown-content font-roboto">
+                <a href="#about">Обо мне</a>
+                <a href="#expirience">Опыт работы</a>
+                <a href="#commercial-project">Коммерческие проекты</a>
+                <a href="#portfolio">Портфолио</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="fixed left-0 bottom-0 md:left-10 md:bottom-8 flex flex-col items-center space-y-4 z-50">
+    <a target="_blank" href="https://t.me/RammRain">
+        <svg class="fill-white hover:fill-primary h-8 md:h-10" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 25 2 C 12.309288 2 2 12.309297 2 25 C 2 37.690703 12.309288 48 25 48 C 37.690712 48 48 37.690703 48 25 C 48 12.309297 37.690712 2 25 2 z M 25 4 C 36.609833 4 46 13.390175 46 25 C 46 36.609825 36.609833 46 25 46 C 13.390167 46 4 36.609825 4 25 C 4 13.390175 13.390167 4 25 4 z M 34.087891 14.035156 C 33.403891 14.035156 32.635328 14.193578 31.736328 14.517578 C 30.340328 15.020578 13.920734 21.992156 12.052734 22.785156 C 10.984734 23.239156 8.9960938 24.083656 8.9960938 26.097656 C 8.9960938 27.432656 9.7783594 28.3875 11.318359 28.9375 C 12.146359 29.2325 14.112906 29.828578 15.253906 30.142578 C 15.737906 30.275578 16.25225 30.34375 16.78125 30.34375 C 17.81625 30.34375 18.857828 30.085859 19.673828 29.630859 C 19.666828 29.798859 19.671406 29.968672 19.691406 30.138672 C 19.814406 31.188672 20.461875 32.17625 21.421875 32.78125 C 22.049875 33.17725 27.179312 36.614156 27.945312 37.160156 C 29.021313 37.929156 30.210813 38.335938 31.382812 38.335938 C 33.622813 38.335938 34.374328 36.023109 34.736328 34.912109 C 35.261328 33.299109 37.227219 20.182141 37.449219 17.869141 C 37.600219 16.284141 36.939641 14.978953 35.681641 14.376953 C 35.210641 14.149953 34.672891 14.035156 34.087891 14.035156 z M 34.087891 16.035156 C 34.362891 16.035156 34.608406 16.080641 34.816406 16.181641 C 35.289406 16.408641 35.530031 16.914688 35.457031 17.679688 C 35.215031 20.202687 33.253938 33.008969 32.835938 34.292969 C 32.477938 35.390969 32.100813 36.335938 31.382812 36.335938 C 30.664813 36.335938 29.880422 36.08425 29.107422 35.53125 C 28.334422 34.97925 23.201281 31.536891 22.488281 31.087891 C 21.863281 30.693891 21.201813 29.711719 22.132812 28.761719 C 22.899812 27.979719 28.717844 22.332938 29.214844 21.835938 C 29.584844 21.464938 29.411828 21.017578 29.048828 21.017578 C 28.923828 21.017578 28.774141 21.070266 28.619141 21.197266 C 28.011141 21.694266 19.534781 27.366266 18.800781 27.822266 C 18.314781 28.124266 17.56225 28.341797 16.78125 28.341797 C 16.44825 28.341797 16.111109 28.301891 15.787109 28.212891 C 14.659109 27.901891 12.750187 27.322734 11.992188 27.052734 C 11.263188 26.792734 10.998047 26.543656 10.998047 26.097656 C 10.998047 25.463656 11.892938 25.026 12.835938 24.625 C 13.831938 24.202 31.066062 16.883437 32.414062 16.398438 C 33.038062 16.172438 33.608891 16.035156 34.087891 16.035156 z"/></svg>
+    </a>
+    <a target="_blank" href="https://www.instagram.com/ramm_rain/">
+        <svg class="fill-white hover:fill-primary h-8 md:h-10" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 16 12 C 14.35499 12 13 13.35499 13 15 C 13 16.64501 14.35499 18 16 18 C 17.64501 18 19 16.64501 19 15 C 19 13.35499 17.64501 12 16 12 z M 16 14 C 16.564129 14 17 14.435871 17 15 C 17 15.564129 16.564129 16 16 16 C 15.435871 16 15 15.564129 15 15 C 15 14.435871 15.435871 14 16 14 z M 14 19 A 1.0001 1.0001 0 0 0 13 20 L 13 35 A 1.0001 1.0001 0 0 0 14 36 L 18 36 A 1.0001 1.0001 0 0 0 19 35 L 19 20 A 1.0001 1.0001 0 0 0 18 19 L 14 19 z M 22 19 A 1.0001 1.0001 0 0 0 21 20 L 21 35 A 1.0001 1.0001 0 0 0 22 36 L 26 36 A 1.0001 1.0001 0 0 0 27 35 L 27 27.5 C 27 26.120455 28.120455 25 29.5 25 C 30.879545 25 32 26.120455 32 27.5 L 32 30 L 32 35 A 1.0001 1.0001 0 0 0 33 36 L 37 36 A 1.0001 1.0001 0 0 0 38 35 L 38 26.5 C 38 22.36961 34.63039 19 30.5 19 C 29.213528 19 28.059744 19.41615 27 19.990234 A 1.0001 1.0001 0 0 0 26 19 L 22 19 z M 15 21 L 17 21 L 17 34 L 15 34 L 15 21 z M 23 21 L 25 21 L 25 21.816406 A 1.0001 1.0001 0 0 0 26.693359 22.537109 C 27.684186 21.585305 29.016683 21 30.5 21 C 33.54961 21 36 23.45039 36 26.5 L 36 34 L 34 34 L 34 30 L 34 27.5 C 34 25.029545 31.970455 23 29.5 23 C 27.029545 23 25 25.029545 25 27.5 L 25 34 L 23 34 L 23 21 z"/></svg>
+    </a>
+    <a target="_blank" href="https://www.linkedin.com/in/ramrain/">
+        <svg class="fill-white hover:fill-primary h-8 md:h-10" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"/></svg>
+    </a>
+    <span class="h-28 w-0.5 bg-white"></span>
+</div>
+
+<section class="min-h-screen z-0 px-10">
+    <div class="flex justify-center min-h-screen items-center">
+        <div class="space-y-6">
+            <h1 class="text-white font-roboto text-3xl md:text-6xl ">Привет, я <span class="text-primary">Рамиль Алиев</span></h1>
+            <h2 class="text-white font-roboto text-3xl md:text-6xl">Я Front-end разработчик</h2>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="z-0 min-h-screen reveal fade-bottom px-10">
+    <div class="flex flex-col space-y-16 min-h-screen items-center">
+        <div class="mt-44 md:mt-0">
+            <h2 class="text-white font-roboto font-bold text-2xl md:text-3xl space-x-4"><span class="text-primary">01.</span><span>Обо мне</span></h2>
+        </div>
+        <div class="flex flex-col items-center md:flex-row md:justify-between gap-20">
+            <div class="max-w-lg flex flex-col space-y-4">
+                <p class="text-white font-roboto text-lg">Веб разработку изучал еще в школе, смотрел различные ютуб каналы, покупал курсы на udemy. Веб разработка заинтересовала тем, что можно создавать проекты своими руками,
+                    при этом это всё можно быстро попробовать, потыкать, позаимодействовать. Также помимо разработки у меня имеются небольшие хобби, книги по саморазвитию и художественые,
+                    также люблю играть в стратегичевские игры, в особенности пошаговые.</p>
+                <p class="border-b-2 border-primary text-white font-roboto text-xl ">Технологии с которыми я работал:</p>
+                <ul class="font-roboto text-white text-lg grid grid-cols-2">
+                    <li class="flex flex-start items-center"><img class="h-4 w-4 mr-4" src="dist/img/right-arrow-next-svgrepo-com%20(1).svg" alt="">HTML/CSS</li>
+                    <li class="flex flex-start items-center"><img class="h-4 w-4 mr-4" src="dist/img/right-arrow-next-svgrepo-com%20(1).svg" alt="">JavaScript</li>
+                    <li class="flex flex-start items-center"><img class="h-4 w-4 mr-4" src="dist/img/right-arrow-next-svgrepo-com%20(1).svg" alt="">Tailwind/Boostrap</li>
+                    <li class="flex flex-start items-center"><img class="h-4 w-4 mr-4" src="dist/img/right-arrow-next-svgrepo-com%20(1).svg" alt="">Vue, Vue Router, Vuex</li>
+                    <li class="flex flex-start items-center"><img class="h-4 w-4 mr-4" src="dist/img/right-arrow-next-svgrepo-com%20(1).svg" alt="">Nuxt</li>
+                    <li class="flex flex-start items-center"><img class="h-4 w-4 mr-4" src="dist/img/right-arrow-next-svgrepo-com%20(1).svg" alt="">Axios</li>
+                    <li class="flex flex-start items-center"><img class="h-4 w-4 mr-4" src="dist/img/right-arrow-next-svgrepo-com%20(1).svg" alt="">GraphQL</li>
+                    <li class="flex flex-start items-center"><img class="h-4 w-4 mr-4" src="dist/img/right-arrow-next-svgrepo-com%20(1).svg" alt="">Git</li>
+                </ul>
+            </div>
+            <div class="shadow-xl">
+                <img class="h-96 w-full" src="dist/img/portfolio-min.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section  id="expirience" class="tabs text-white flex flex-col items-center space-y-16 px-12 py-10 z-0 min-h-screen reveal fade-bottom">
+    <h2  class="text-white font-roboto font-bold text-2xl md:text-3xl space-x-4 md:mt-0"><span class="text-primary">02.</span><span>Опыт работы</span></h2>
+    <div class="flex flex-col md:flex-row space-y-16 md:space-y-0 md:justify-center md:space-x-10">
+        <div class="tabs__nav">
+            <button type="button" class="tabs__nav-btn text-2xl px-20 py-4 font-roboto" data-tab="#tab-1">Envant.me</button>
+            <button type="button" class="tabs__nav-btn text-2xl px-20 py-4 font-roboto" data-tab="#tab-2">Quizgo.ru</button>
+        </div>
+        <div class="tabs__content">
+            <div class="tabs__item" id="tab-1">
+                <div class="flex flex-col max-w-lg space-y-6">
+                    <h4 class="font-roboto text-xl ">Сентябрь 2021 - настоящее время</h4>
+                    <p class="font-roboto text-lg text-white">Тут я разрабатывал сайты различной сложности, работая верстальщиком, при этом добавляя интерактив на сайте. Верстал интернет каталоги, интернет магазины, лендинги различной сложности, иногда применяя анимацию</p>
+                </div>
+            </div>
+            <div class="tabs__item" id="tab-2">
+                <div class="flex flex-col max-w-lg space-y-6">
+                    <h4 class="font-roboto text-xl ">Май 2021 - май 2022</h4>
+                    <p class="font-roboto text-lg text-white">Изначально устроился тех поддержкой в данную компанию, но позже понадобилось взять обязанности верстальщика/разработчика. Я верстал промо сайт курса, также через некоторое время разрабатывал переиспользуемый ui-kit, чтобы разработка шла проще. Переводил сервис на английский язык в один момент, когда появилось много клиентов из других стран. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="commercial-project" class="min-h-screen z-0 md:px-10">
+    <div class="flex flex-col min-h-screen items-center">
+        <h2 class="text-white font-roboto font-bold text-2xl md:text-3xl space-x-4"><span class="text-primary">03.</span><span>Коммерческие проекты</span></h2>
+        <p class="text-white font-roboto text-lg max-w-lg text-center pt-4"><b>Внимание!</b> все данные проекты были сверстаны именно в envant.me, моя задача была именно в верстке, при этом добавляя небольшую динамику. Бекенд делали другие люди.</p>
+        <div class="flex flex-col md:flex-row md:justify-between items-center gap-20 pt-20">
+            <div>
+                <a target="_blank" href="https://gymmaster.fitness/" class="font-roboto text-white text-3xl">GymMaster</a>
+            </div>
+            <div>
+                <video autoplay muted class="video-size object-cover w-full h-full">
+                    <source src="dist/img/commercial-project/portfolio-project-1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row md:justify-between items-center gap-20 pt-20">
+            <div class="order-2 md:order-1">
+                <video autoplay muted class="video-size object-cover w-full h-full">
+                    <source src="dist/img/commercial-project/portfolio-project-2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="order-1 md:order-2">
+                <a target="_blank" href="https://collezion.europa.envant.me/" class="font-roboto text-white text-3xl">Collezioni</a>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row md:justify-between items-center gap-20 pt-20">
+            <div>
+                <a target="_blank" href="https://proseries.one/" class="font-roboto text-white text-3xl">Proserians</a>
+            </div>
+            <div>
+                <video autoplay muted class="video-size object-cover w-full h-full">
+                    <source src="dist/img/commercial-project/portfolio-project-3.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row md:justify-between items-center gap-20 pt-20">
+            <div class="order-2 md:order-1">
+                <video autoplay muted class="video-size object-cover w-full h-full">
+                    <source src="dist/img/commercial-project/portfolio-project-4.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="order-1 md:order-2">
+                <a target="_blank" href="http://nostress.dev.envant.me/" class="font-roboto text-white text-3xl">NoStress</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="min-h-screen z-0 reveal fade-bottom px-10">
+    <div class="flex justify-center min-h-screen items-center">
+        <div class="flex flex-col items-center gap-10 pt-20">
+            <h2 class="text-white font-roboto font-bold text-3xl space-x-4"><span class="text-primary">04.</span><span>Портфолио</span></h2>
+            <div class="flex flex-col items-center space-y-10">
+                <h4 class="text-white font-roboto text-2xl">Pokemon API</h4>
+                <p class="max-w-3xl text-white font-roboto text-lg text-center">В данном проекте используется Pokemon API в котором приствует бесконечный скролл, чтобы подгружались данные из покемонов. Также реализовано хранение в LocalStorage и поиск. Карточку можно открыть и посмотреть информацию о покемоне.</p>
+                <div class="flex justify-center items-center">
+                    <a target="_blank" href="https://github.com/RamRainn/pokemon-vue" class="font-roboto px-10 py-3 text-white text-xl bg-transparent border-2 border-primary hover:bg-primary hover:text-white">Демо</a>
+                </div>
+                <video autoplay muted class="video-size object-cover w-full h-full">
+                    <source src="dist/img/portfolio/portfolio-1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="flex flex-col items-center space-y-10">
+                <h4 class="text-white font-roboto text-2xl">Reload</h4>
+                <div class="flex justify-center items-center">
+                    <a target="_blank" href="https://github.com/RamRainn/reload-test" class="font-roboto px-10 py-3 text-white text-xl bg-transparent border-2 border-primary hover:bg-primary hover:text-white">Демо</a>
+                </div>
+                <video autoplay muted class="video-size object-cover w-full h-full">
+                    <source src="dist/img/portfolio/portfolio-2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script src="dist/script.js"></script>
+</body>
+</html>
